@@ -32,6 +32,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.nameisjayant.alarmclock.constant.RESET_STOPWATCH
 import com.nameisjayant.alarmclock.constant.START_STOPWATCH
@@ -44,6 +45,7 @@ import com.nameisjayant.alarmclock.service.triggerStopwatchService
 import com.sujit.alarmclock.R
 
 
+@Preview()
 @Composable
 fun StopWatchScreen(
     stopwatchService: StopwatchService
